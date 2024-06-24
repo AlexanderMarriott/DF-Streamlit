@@ -10,7 +10,7 @@ st.divider()
 col1, col2, col3 = st.columns([1.5,2,1])
 with col2:
     explore_random_pokemon = st.button("Explore 3 Random Pokémon")
-
+st.divider()
 if explore_random_pokemon:
     pokemon_data = []  # List to store dictionaries of Pokémon data
 
